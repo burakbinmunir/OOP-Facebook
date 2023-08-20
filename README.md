@@ -29,12 +29,3 @@ Usage:
 2. Run the compiled executable.
 3. Follow the on-screen instructions to interact with the Facebook simulation.
 4. Experiment with viewing friend lists, liked pages, posts, comments, and more.
-
-Contributing
-------------
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
-
-License
--------
-This project is licensed under the MIT License.
-
