@@ -1,0 +1,45 @@
+class User
+{
+char* ID;
+char* FirstName;
+char* LastName;
+User** FriendList;
+Page** LikedPages;
+}
+class Page
+{
+char* ID;
+char* Title;
+
+};
+class Facebook
+{
+User* CurrentUser;
+User** UsersList;
+Page** PageList;
+Page* SearchPageByID(...);
+User* SearchUserByID(...);
+LoadData()
+{
+	for(...20..)
+	{
+	UsersList[i]->LoadDataFromFile(...);
+	}
+	
+	for ( .... 20...)
+	{
+		Pages[i]->LoadDataFromFile();
+	}
+}
+};
+void main()
+{
+
+Facebook fb;
+fb.LoadData(char***& tempFriendList, char***& tempLikedPages);
+fb.AssociateFriends(tempFriendList);
+fb.AssociatePages(tempLikedPages)
+fb.SetCurrentUser("u7");
+CurrentUser->ViewFriendList();
+CurrentUser->ViewLikedPages();
+}
